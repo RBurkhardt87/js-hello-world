@@ -4,9 +4,21 @@ Enter your code on line 7 to print 'Hello, World!'
 to the console (the panel on the right)
 */
 
-console.log("Hello");
+console.log("Hello, World!"); //Change message that is printed
+console.log("Hello " + "to you too!"); //print two messages on the same line
+console.log("Hope you are doing well." + " Life is beautiful."); //print multiple messages one after the other
+console.log(4); //print a number
+console.log(4 + 3); // print two numbers added together
 
-/*  
+const raven = "Nevermore";
+const quoted = "\"" + raven + "\""; 
+console.log(quoted); //print a message in quotations
+
+let myPet = 'Cosmo';
+console.log('I have a doggy named ' + myPet + '.'); //print of my choice
+
+
+/*
 Next, PLAY! 
 Modify your code on line 7 to try to accomplish the tasks listed below:
 
